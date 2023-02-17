@@ -1,0 +1,47 @@
+COMMAND			FUNCTION							SYNTAX
+
+<CONSOLE>
+CLS			CLEAR SCREEN
+EXIT			EXIT THE PROGRAM
+PROMPT			CHANGE THE PROMPT SYMBOL					PROMPT [char]						
+
+
+<DIR>
+DIR			DISPLAY THE CURRENT DIR
+CD
+->CD . 			CURRENT DIR							CD .
+->CD .. 		GO BACK ONE LEVEL						CD ..
+->CD \			ROOT DIR							CD \
+->MKDIR			CREATE A NEW DIR IN CURRENT DIR					mkdir [dir name]
+->RMDIR			REMOVE A DIR(MUST BE EMPTY)					rmdir [dir name]
+->FORMAT		FORMAT A DIR(DOESN'T NEED TO BE EMPTY) 				format [dir name]
+
+<FILES>
+->CREATE		CREATE A NEW FILE  						create [filename]
+->DEL			DELETE A FILE							del [filename]
+->OPEN			OPEN A FILE IN MEMORY						open [filename]
+->EDIT			EDIT AN OPEN FILE						
+->SAVE			SAVE OPEN FILE TO DISK						
+->CLOSE			CLOSE THE FILE IN MEMORY
+->COPY			COPY A FILE FROM ONE LOCATION TO ANOTHER			copy [filename] [path:]
+->MOVE			CUT/MOVE FILE FROM ONE LOCATION TO ANOTHER			move [filename] [path:]
+->RENAME		RENAME A FILE							rename [filename] [new name]
+->ATTRIB
+-->ATTRIB		DISPLAY FILES AND THEIR ATTRIBUTES				
+-->ATTRIB		DISPLAY FILES WITH SPECIFIED ATTRIBUTES				ATTRIB [attrib]
+-->ATTRIB		SET ATTRIBUTE							ATTRIB [+/-][attrib] [filename]
+->FIND			FIND A FILE							FIND [filename]
+->FINDF 		CHECK FOR A STRING INSIDE FILE					FINDF [filename] ["string"]
+->FINDSTR		FIND A FILE WITHE GIVEN STRING					FINDSTR ["string"]
+
+<STRUCTURE>
+->TREE			DISPLAY THE ENTIRE TREE OF CURRENT DIR
+->LOADTREE		LOAD TREE STRUCTURE FROM A FILE					LOADTREE [filename]
+->SAVETREE		SAVE CURRENT TREE STRUCTURE TO A FILE				SAVETREE [filename]
+
+<PRINT>
+-PRINT			ADD FILE TO PRINT QUEUE						print [filename]
+-PPRINT			ADD FILE TO PRIORITY PRINT QUEUE				pprint [filename]
+-QUEUE			SHOW PRINT QUEUE
+-PQUEUE			SHOW PRIORITY PRINT QUEUE
+===================================================================================================================

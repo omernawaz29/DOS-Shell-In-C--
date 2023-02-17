@@ -1,0 +1,17 @@
+DIR-dir1-90-Wed Jan 19 21:19:25 2022
+	-DIR-dir1.1-46-Wed Jan 19 21:19:42 2022
+	-	-DIR-dir1.1.1-0-Wed Jan 19 21:21:47 2022
+	-	-FILE-file1.1.1.txt-46-Wed Jan 19 21:30:39 2022
+	-DIR-dir1.2-0-Wed Jan 19 21:19:49 2022
+	-DIR-dir1.3-0-Wed Jan 19 21:19:55 2022
+	-FILE-file1.1.txt-44-Wed Jan 19 21:29:55 2022
+DIR-dir2-56-Wed Jan 19 21:19:27 2022
+	-DIR-dir2.1-0-Wed Jan 19 21:20:01 2022
+	-DIR-dir2.2-0-Wed Jan 19 21:20:08 2022
+	-FILE-file2.1.txt-19-Wed Jan 19 21:31:20 2022
+	-FILE-file2.2.txt-19-Wed Jan 19 21:31:23 2022
+	-FILE-file2.3.txt-18-Wed Jan 19 21:31:28 2022
+DIR-dir3-0-Wed Jan 19 21:19:29 2022
+	-DIR-dir3.1-0-Wed Jan 19 21:20:15 2022
+FILE-file1.txt-21-Wed Jan 19 21:22:14 2022
+FILE-file2.txt-21-Wed Jan 19 21:22:16 2022
